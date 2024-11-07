@@ -1,0 +1,48 @@
+.filterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.sortSelect {
+    width: 70px;
+    height: 40px;
+
+    /* background: rgba(255, 229, 220, 1); */
+
+    /* border: 2px solid rgba(255, 111, 63, 1); */
+    color: rgba(47, 53, 103, 1);
+
+    border-radius: 32px;
+    padding: 10px;
+    font-size: 12px;
+
+}
+
+
+
+/* To apply specific styles for the options, you can use this pseudo-element technique */
+.sortSelect option {
+    background: white
+}
+
+.sortSelect option:hover {
+
+    color: red;
+
+}
+
+.filterContainer {
+    margin: 20px;
+}
+
+.radioGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.radioLabel {
+    margin: 5px 0;
+    cursor: pointer;
+}

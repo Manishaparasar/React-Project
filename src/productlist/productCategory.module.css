@@ -1,0 +1,101 @@
+/* body {
+    margin-top: 500px;
+} */
+
+.cartContainer {
+    padding: 20px;
+
+    color: rgba(47, 53, 103, 1);
+
+}
+
+.cartTitle {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.cartItems {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+
+}
+
+
+
+.price {
+
+    color: rgba(228, 83, 1, 1);
+
+}
+
+
+
+.cartItem {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(228, 83, 1, 1);
+}
+
+
+
+.cartSummary {
+    margin-top: 20px;
+    text-align: right;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viewMoreLink {
+    text-decoration: none;
+    color: rgba(228, 83, 1, 1);
+    font-weight: bold;
+}
+
+.viewMoreLink:hover {
+    text-decoration: underline;
+}
+
+/* .mobigarage-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+/* .mobigarageIcon{
+}
+
+.mobigarageTitle {
+    margin-left: 10px;
+    font-size: 24px;
+    color: rgba(47, 53, 103, 1);
+} */
+.mobigarageContainer {
+    display: flex;
+    /* Use flexbox for horizontal alignment */
+    align-items: center;
+    /* Align items vertically centered */
+}
+
+
+
+.mobigarageTitle {
+    margin-left: 10px;
+    /* Space between icon and title */
+
+    color: rgba(47, 53, 103, 1);
+}
+
+.frameImage {
+    width: 100%;
+    /* Adjust the frame image width as needed */
+    margin-bottom: 20px;
+    /* Space below the frame image */
+}

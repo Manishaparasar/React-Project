@@ -1,0 +1,192 @@
+.formHeader {
+    margin-bottom: 20px;
+    color: rgba(47, 53, 103, 1);
+    text-align: left;
+    padding-left: 16px;
+    font-size: 18px;
+
+}
+
+
+
+
+.formGroup {
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.formInput,
+.formSelect {
+
+    width: 100%;
+
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+
+    transition: border-color 0.3s ease;
+}
+
+.formInput:focus,
+.formSelect:focus {
+    outline: none;
+    border-color: transparent;
+}
+
+.helpText {
+    font-size: 12px;
+
+    color: rgba(152, 152, 152, 1);
+    /* margin-top: -5px; */
+    /* margin-bottom: 10px; */
+    text-align: left;
+}
+
+.submitBtn {
+    padding: 10px;
+    background: rgba(255, 111, 63, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+
+}
+
+.submitBtn:hover {
+    background-color: rgba(205, 81, 28, 1);
+}
+
+.label {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    font-size: 1rem;
+
+    pointer-events: none;
+}
+
+.formInput:focus+.label,
+.formInput:not(:placeholder-shown)+.label,
+.formSelect:focus+.label,
+.formSelect:not(:placeholder-shown)+.label {
+    top: -6px;
+    left: 10px;
+    font-size: 0.75rem;
+
+}
+
+.formGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.inputGroup {
+    flex: 1;
+    margin-right: 10px;
+    position: relative;
+}
+
+.inputGroup:last-child {
+    margin-right: 0;
+}
+
+.image {
+    float: left;
+    justify-items: left;
+    margin-right: 10px;
+}
+
+.label {
+    color: rgba(152, 152, 152, 1);
+}
+
+.formContainer {
+    width: 90%;
+
+    max-width: 360px;
+
+    margin: 0 auto;
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.backButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.addressForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+
+.useLocationBtn {
+    border: 1px solid rgb(219, 21, 17);
+    background-color: white;
+    color: rgba(74, 76, 95, 1);
+    width: 90%;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+
+    border-radius: 4px;
+
+}
+
+.editBtn {
+    background-color: whitesmoke;
+
+    border: 1px solid rgba(220, 220, 220, 1);
+
+    color: rgba(74, 76, 95, 1);
+
+    padding: 8px 12px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+}
+
+.editBtn:hover {
+    background-color: whitesmoke;
+
+
+}
+
+.deleteBtn {
+    border: 1px solid rgba(220, 220, 220, 1);
+    background-color: whitesmoke;
+
+    color: red;
+
+    padding: 8px 12px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+}
+
+.deleteBtn:hover {
+    background-color: darkred;
+
+}

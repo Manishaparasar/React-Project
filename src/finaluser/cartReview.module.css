@@ -1,0 +1,329 @@
+h1,
+h5,
+h2,
+h3 {
+    color: rgba(47, 53, 103, 1);
+}
+
+p {
+    font-size: 14px;
+    color: rgba(255, 111, 63, 1);
+}
+
+.cartreview {
+    padding: 20px;
+}
+
+
+
+.cartitem {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(239, 239, 239, 1);
+}
+
+.cart-item-image {
+    margin-right: 20px;
+}
+
+.cartitemdetails {
+    flex-grow: 1;
+}
+
+.cart-summary {
+    margin-top: 20px;
+}
+
+.coupon-section {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 12px;
+}
+
+.ordersummary {
+    margin-bottom: 20px;
+}
+
+.finalPrice {
+    border-top: 2px solid rgba(239, 239, 239, 1);
+}
+
+.head {
+    border-bottom: 2px solid rgba(239, 239, 239, 1);
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+.cartValue {
+
+    color: rgba(89, 89, 89, 1);
+}
+
+.coupon {
+    color: rgba(254, 0, 0, 1);
+    font-weight: bold;
+}
+
+.priceoftotal {
+    color: rgba(47, 53, 103, 1);
+}
+
+.couponsection {
+    align-items: left;
+    display: flex;
+
+}
+
+.couponbutton {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 328px;
+    height: 56px;
+    top: 865px;
+    left: 16px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: rgba(255, 255, 255, 1);
+    /* background: white;
+    border: none;
+    color: rgba(47, 53, 103, 1);
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    display: flex; */
+}
+
+.couponText {
+    color: rgba(47, 53, 103, 1);
+    font-weight: bold;
+    text-align: left;
+
+}
+
+
+
+.discountContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.finalButton {
+    width: 100%;
+    border: none;
+    background: rgba(255, 111, 63, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.couponText {
+    align-items: left;
+    margin-right: 80px;
+
+
+}
+
+.finalPrice {
+
+
+    color: rgba(255, 111, 63, 1);
+}
+
+.discountText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 9px;
+    pointer-events: none;
+}
+
+.discountImage {
+    width: 50px;
+    height: auto;
+}
+
+.box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.finalprice {
+    color: rgba(74, 76, 95, 1);
+    text-decoration: line-through;
+}
+
+
+.ordersummary {
+    margin-top: 20px;
+    padding: 15px;
+    /* Added padding */
+    background: white;
+    /* White background for summary */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+.couponsection {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+    /* Center vertically */
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid rgba(239, 239, 239, 1);
+    border-radius: 4px;
+    /* Rounded corners for input */
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    /* Rounded corners */
+}
+
+.finalButton {
+    width: 100%;
+    border: none;
+    background: rgba(255, 111, 63, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    /* Added padding for better touch target */
+    border-radius: 4px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Slightly larger text */
+    cursor: pointer;
+    /* Pointer on hover */
+}
+
+.finalPrice {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.discountContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.discountText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 9px;
+    pointer-events: none;
+}
+
+.discountImage {
+    width: 50px;
+    height: auto;
+}
+
+.billDetail {
+
+    display: flex;
+    justify-content: space-between;
+
+
+    padding: 8px 0;
+}
+
+.summary {
+    color: rgba(152, 152, 152, 1);
+    flex-basis: 70%;
+}
+
+span {
+    color: rgba(47, 53, 103, 1);
+    flex-basis: 30%;
+    text-align: right;
+}
+
+
+
+/* .billDetail {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+} */
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(152, 152, 152, 1);
+    /* flex-basis: 70% */
+}
+
+span {
+    color: rgba(47, 53, 103, 1);
+    flex-basis: 30%;
+    text-align: right;
+}
+
+.finalPrice {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.userDetails {
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.userDetails h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.userDetails p {
+    margin: 5px 0;
+    color: grey;
+    font-size: 1em;
+}
+
+.userDetails {
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Shadow for user details */
+}
+
+.finalPrice {
+    color: rgba(47, 53, 103, 1);
+}
+
+
+.last {
+    color: rgba(255, 111, 63, 1);
+}

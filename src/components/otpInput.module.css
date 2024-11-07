@@ -1,0 +1,111 @@
+ /* .main {
+     text-align: center;
+     flex-direction: column;
+     align-items: center;
+     color: rgba(47, 53, 103, 1);
+     margin-top: 100px; */
+ /* margin-bottom: 500px; */
+ /* margin-bottom: 100px; */
+
+ /* }
+
+ .otp-input-container {
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     margin-top: 20px;
+ }
+
+ .otp-box {
+     width: 40px;
+     height: 40px;
+     text-align: center;
+     font-size: 1.5rem;
+     border: 2px solid #ccc;
+     border-radius: 5px;
+     outline: none;
+     transition: border-color 0.3s;
+ }
+
+ .otp-box:focus {
+     border-color: #e02c0d;
+ }
+
+ .title,
+ p {
+     margin-top: 10px;
+     font-size: 16px;
+     color: rgba(47, 53, 103, 1);
+     text-align: center;
+ }
+
+ strong {
+     color: rgba(255, 111, 63, 1);
+ } */
+ body {
+     margin-bottom: 400px;
+ }
+
+ .main {
+     text-align: center;
+     flex-direction: column;
+     align-items: center;
+     color: rgba(47, 53, 103, 1);
+     margin-top: 100px;
+ }
+
+ .otp-input-container {
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     margin-top: 20px;
+ }
+
+ .otp-box {
+     width: 40px;
+     height: 40px;
+     text-align: center;
+     font-size: 1.5rem;
+     border: 2px solid #ccc;
+     border-radius: 5px;
+     outline: none;
+     transition: border-color 0.3s;
+ }
+
+ .otp-box:focus {
+     border-color: #e02c0d;
+ }
+
+ .title,
+ p {
+     margin-top: 10px;
+     font-size: 16px;
+     color: rgba(47, 53, 103, 1);
+     text-align: center;
+ }
+
+ strong {
+     color: rgba(255, 111, 63, 1);
+ }
+
+ .button {
+     padding-left: 600px;
+
+ }
+
+ .verify-button {
+     margin-top: 20px;
+     padding: 10px 20px;
+     background-color: rgba(47, 53, 103, 1);
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     opacity: 0.6;
+     /* Make it look disabled initially */
+ }
+
+ /* .verify-button:enabled { */
+ /* opacity: 1; */
+ /* Make it fully visible when enabled */
+ /* } */

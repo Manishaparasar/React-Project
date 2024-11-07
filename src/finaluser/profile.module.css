@@ -1,0 +1,143 @@
+/* .container {
+    padding: 20px;
+    width: 100%;
+    max-width: 390px;
+    height: auto;
+    border-bottom: 2px solid rgba(239, 239, 239, 1);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(239, 239, 239, 1);
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.backButton {
+    margin-left: auto;
+
+    cursor: pointer;
+
+}
+
+.item img {
+    margin-right: 10px;
+
+}
+
+h5 {
+    margin: 0;
+    font-size: 16px;
+    color: rgba(47, 53, 103, 1);
+    font-weight: 16px;
+
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    margin-top: 20px;
+    font-size: 16px;
+
+
+    color: rgba(85, 85, 85, 1);
+}
+
+p {
+    margin: 5px 0 0 5px;
+    font-size: 12px;
+    color: rgba(152, 152, 152, 1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bottom {
+    width: 328px;
+    height: 48px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    color: rgba(255, 111, 63, 1);
+    font-weight: 500;
+
+} */
+
+.container {
+    padding: 20px;
+    width: 100%;
+    max-width: 390px;
+    height: auto;
+    border-bottom: 2px solid rgba(239, 239, 239, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(239, 239, 239, 1);
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.itemContent {
+    display: flex;
+    align-items: center;
+    /* Align items vertically */
+    width: 100%;
+    /* Take full width */
+}
+
+.item img {
+    margin-right: 10px;
+}
+
+h5 {
+    margin: 0;
+    font-size: 16px;
+    color: rgba(47, 53, 103, 1);
+    font-weight: 500;
+    /* Adjusted to a standard weight */
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgba(85, 85, 85, 1);
+}
+
+p {
+    margin: 5px 0 0 5px;
+    font-size: 12px;
+    color: rgba(152, 152, 152, 1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.arrowIcon {
+    margin-left: auto;
+    /* Move arrow icon to the right */
+}
+
+.logoutButton {
+    width: 328px;
+    height: 48px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    color: rgba(255, 111, 63, 1);
+    font-weight: 500;
+}

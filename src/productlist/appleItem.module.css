@@ -1,0 +1,62 @@
+.appleItemContainer {
+    padding: 20px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: rgba(47, 53, 103, 1);
+
+}
+
+.price {
+
+    color: rgba(228, 83, 1, 1);
+
+}
+
+.text {
+    color: rgba(152, 152, 152, 1);
+
+}
+
+
+.viewMoreLink {
+    text-decoration: none;
+    color: rgba(228, 83, 1, 1);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.viewMoreLink:hover .arrow {
+    transform: translateX(5px);
+}
+
+.itemList {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 5px;
+}
+
+.itemCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.itemDetails {
+    margin-top: 10px;
+}

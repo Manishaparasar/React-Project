@@ -1,0 +1,39 @@
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+li {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+.active {
+    font-weight: bold;
+    /* Make active link bold */
+    border-bottom: 2px solid #ff6347;
+    /* Underline active link */
+    color: #ff6347;
+
+}

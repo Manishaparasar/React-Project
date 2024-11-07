@@ -1,0 +1,26 @@
+/* src/dynamicTable.module.css */
+
+.table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid rgba(239, 239, 239, 1)
+}
+
+.table th,
+.table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background: rgba(255, 111, 63, 1);
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: rgba(255, 159, 63, 0.2);
+    /* Light background for even rows */
+}

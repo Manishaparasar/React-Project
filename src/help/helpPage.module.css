@@ -1,0 +1,140 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 16px;
+    padding: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.item {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    max-width: 100%;
+    background-color: #f9f9f9;
+}
+
+.image {
+    background: rgba(255, 255, 255, 1);
+
+    border-radius: 50% / 30%;
+
+    height: 40px;
+    width: 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    overflow: hidden;
+
+}
+
+
+
+
+
+/* .image {
+    margin-left: 5vw;
+} */
+
+
+.paragraph {
+    font-size: 1rem;
+    margin-right: 3vw;
+    color: rgba(198, 198, 198, 1);
+}
+
+.heading {
+    color: rgba(47, 53, 103, 1);
+    text-align: center;
+    margin-right: 70px;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    color: rgba(47, 53, 103, 1);
+}
+
+.text {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    background: none;
+}
+
+.cart-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.text {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.box p {
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    color: rgba(152, 152, 152, 1);
+    align-items: center;
+    border-bottom: 1.5px solid rgba(239, 239, 239, 1);
+    margin: 1rem auto;
+}
+
+.backImage {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.5rem;
+}
+
+.item:nth-child(1) {
+    background: rgba(203, 250, 223, 1);
+}
+
+.item:nth-child(2) {
+    background: rgba(252, 230, 222, 1);
+}
+
+.item:nth-child(3) {
+    background: rgba(240, 242, 255, 1);
+}
+
+.item:nth-child(4) {
+    background: rgba(221, 240, 252, 1);
+}
+
+.item:nth-child(5) {
+    background: rgba(250, 240, 255, 1);
+}
+
+.item:nth-child(6) {
+    background: rgba(227, 255, 253, 1);
+}

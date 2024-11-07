@@ -1,0 +1,121 @@
+.containerAddress {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h3 {
+    color:
+        rgba(47, 53, 103, 1);
+}
+
+.buttonWithIcon {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    width: 328px;
+
+    height: 44px;
+
+    border-radius: 4px;
+
+    padding: 10px 20px;
+
+    font-size: 16px;
+
+    background-color: rgba(255, 255, 255, 1);
+
+
+    color: rgba(47, 53, 103, 1);
+
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+
+}
+
+
+.backButton {
+
+    margin-left: 10px;
+    /* Space between button text and icon */
+}
+
+.addressItem {
+    display: flex;
+    flex-direction: column;
+    /* Change to column to stack items */
+    align-items: flex-start;
+    /* Align items to the start */
+    justify-content: flex-start;
+    /* Ensure items are at the top */
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.addressLabel {
+    display: flex;
+    align-items: center;
+    /* Align radio and address details */
+    flex: 1;
+    /* Allow label to take full width */
+    cursor: pointer;
+    /* Pointer cursor for label */
+}
+
+.addressDetails {
+    margin-left: 8px;
+    /* Space between radio button and details */
+}
+
+.editlist {
+    display: flex;
+    /* Align buttons in a row */
+    margin-top: 8px;
+    /* Space above the buttons */
+}
+
+.editButton {
+    background-color: whitesmoke;
+    /* Blue background */
+    color: rgba(74, 76, 95, 1);
+    /* White text */
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 4px;
+    /* Optional: add rounded corners */
+    transition: background-color 0.3s;
+    /* Smooth transition on hover */
+}
+
+.editButton:hover {
+    background-color: darkblue;
+    /* Darker blue on hover */
+}
+
+.deleteButton {
+    background-color: red;
+    /* Red background */
+    color: white;
+    /* White text */
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 4px;
+    /* Optional: add rounded corners */
+    transition: background-color 0.3s;
+    /* Smooth transition on hover */
+}
+
+.deleteButton:hover {
+    background-color: darkred;
+    /* Darker red on hover */
+}

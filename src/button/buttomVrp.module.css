@@ -1,0 +1,78 @@
+.buttonContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.addToCart {
+    border: 1px solid rgba(255, 111, 63, 1);
+    color: rgba(255, 111, 63, 1);
+
+}
+
+
+.buyNow {
+    background: rgba(255, 111, 63, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    /* Space buttons evenly */
+    margin-top: 10px;
+    /* Add some space above buttons */
+}
+
+.btn {
+    padding: 10px 20px;
+    /* Add padding */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Change cursor on hover */
+    font-size: 16px;
+    /* Font size */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.addToCart {
+    background: none;
+    border: 1px solid rgba(255, 111, 63, 1);
+    /* Green background */
+    color: rgba(255, 111, 63, 1);
+
+    /* White text */
+}
+
+.addToCart:hover {
+    color:
+        rgba(255, 111, 63, 1);
+    /* Darker green on hover */
+}
+
+.buyNow {
+    background: rgba(255, 111, 63, 1);
+
+    /* Red background */
+    color: rgba(255, 255, 255, 1);
+
+    /* White text */
+}
+
+.buyNow:hover {
+    background-color: rgba(255, 111, 63, 1);
+    /* Darker red on hover */
+}
